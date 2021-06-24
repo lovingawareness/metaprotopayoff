@@ -1,6 +1,6 @@
 const fs = require('fs')
-const path = require('path')
+const { JSDOM } = require('jsdom')
 
-
-let html = fs.readFileSync(path.join(__dirname, 'bookmarks_6_23_21.html'))
-
+let html = fs.readFileSync('bookmarks_6_23_21.html')
+const dom = new JSDOM(html)
+const { document } = dom.window
