@@ -75,16 +75,6 @@
                 </v-card>
             </v-col>
         </v-row>
-        <v-row>
-            <v-col>
-                <div class="text-h2">Here are all of my bookmarks collected during the creation of this app:</div>
-            </v-col>
-        </v-row>
-        <v-row>
-            <v-col>
-                <v-treeview :items="bookmarks"></v-treeview>
-            </v-col>
-        </v-row>
     </v-col></v-row>
 </template>
 
