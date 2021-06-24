@@ -74,6 +74,11 @@ export default Vue.extend({
             text: "Learning Resources",
             icon: "mdi-school-outline",
             route: "/learning"
+        },
+        {
+          text: "About This Site",
+          icon: "mdi-about",
+          route: "/about"
         }
       ]
     }

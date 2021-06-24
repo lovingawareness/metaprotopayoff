@@ -46,7 +46,7 @@
                 >
                     <v-img></v-img>
                     <v-card-title>
-                        API/Server App
+                        API/Server App: proto-payoff-server
                     </v-card-title>
                     <v-card-subtitle>api.payoff.sim.kellogg.northwestern.edu</v-card-subtitle>
                     <v-card-text>
@@ -60,7 +60,7 @@
                     </v-card-text>
                     <v-divider></v-divider>
                     <v-card-text>
-                        <a href="https://github.com/nukellogg/proto-payoff-server">Server code</a> can be found on Github in a private repository in the <a href="https://github.com/nukellogg">nukellogg organization</a>.
+                        <a href="https://github.com/nukellogg/proto-payoff-server">Server code</a> can be found on Github in a private* repository in the <a href="https://github.com/nukellogg">nukellogg organization</a>.
                     </v-card-text>
                 </v-card>
             </v-col>
@@ -69,7 +69,7 @@
                     elevation="3"
                 >
                     <v-card-title>
-                        Client App
+                        Client App: proto-payoff-client
                     </v-card-title>
                     <v-card-subtitle>
                         payoff.sim.kellogg.northwestern.edu
@@ -87,14 +87,14 @@
                     </v-card-text>
                     <v-divider></v-divider>
                     <v-card-text>
-                        <a href="https://github.com/nukellogg/proto-payoff-client">Client code</a> can be found on Github in a private repository in the <a href="https://github.com/nukellogg">nukellogg organization</a>.
+                        <a href="https://github.com/nukellogg/proto-payoff-client">Client code</a> can be found on Github in a private* repository in the <a href="https://github.com/nukellogg">nukellogg organization</a>.
                     </v-card-text>
                 </v-card>
             </v-col>
         </v-row>
         <v-row>
             <v-col>
-                <div class="text-h2">The Architecture</div>
+                <p>* Nick or Tim can give you access to the private Github repositories if you're interested, you just need a <a href="https://github.com/join">Github account</a> to start. We're happy to share!</p>
             </v-col>
         </v-row>
     </v-col></v-row>
