@@ -8,9 +8,26 @@
     >
       <v-list>
           <v-list-item
-            v-for="link in links"
+            v-for="link in linksInternal"
             :key="link.text"
             :to="link.route"
+            exact
+          >
+            <v-list-item-icon>
+              <v-icon v-text="link.icon"></v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+              <v-list-item-title v-text="link.text"></v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+      </v-list>
+      <v-list
+        v-if="isPresentationDay"
+      >
+          <v-list-item
+            v-for="link in linksExternal"
+            :key="link.text"
+            :href="link.href"
             exact
           >
             <v-list-item-icon>
@@ -47,6 +64,7 @@
 
 <script>
 import Vue from "vue"
+import moment from "moment"
 
 export default Vue.extend({
   name: "TheNav",
@@ -54,7 +72,19 @@ export default Vue.extend({
     return {
       appTitle: 'Meta - Kellogg Proto Payoff Simulation',
       drawer: false,
-      links: [
+      linksExternal: [
+        {
+          text: "Demo - Player",
+          icon: "mdi-controller-classic-outline",
+          href: "https://payoff.sim.kellogg.northwestern.edu/"
+        },
+        {
+          text: "Demo - Admin",
+          icon: "mdi-head-minus-outline",
+          href: "https://payoff.sim.kellogg.northwestern.edu/9KQ6P/"
+        }
+      ],
+      linksInternal: [
         {
           text: "Home",
           icon: "mdi-home",
@@ -81,6 +111,11 @@ export default Vue.extend({
           route: "/about"
         }
       ]
+    }
+  },
+  computed: {
+    isPresentationDay() {
+      return moment().diff(moment('2021-06-25')) < 0
     }
   }
 })
