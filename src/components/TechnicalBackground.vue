@@ -1,8 +1,21 @@
 <template>
-    <v-container>
+    <v-row><v-col>
         <v-row>
             <v-col>
-                <h1>Technical Background</h1>
+                <v-img
+                    src="../assets/roman-mager-5mZ_M06Fc9g-unsplash.jpg"
+                    class="white--text align-end"
+                    max-height="300"
+                >
+                    <div class="text-h1">Technical Background</div>
+                    <!-- Photo by <a href="https://unsplash.com/@roman_lazygeek?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roman Mager</a> on <a href="https://unsplash.com/s/photos/equations?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+                </v-img>
+                
+            </v-col>
+        </v-row>
+        <v-row>
+            <v-col>
                 <p>In the STRT-452 course, taught by various faculty but designed originally by Niko Matouschek, this simulation ("Proto Payoff") is used to illustrate some game theoretic concepts related to Coordination (<a href="https://en.wikipedia.org/wiki/Coordination_game" target="_blank">Wikipedia</a>) with respect to managing teams.</p>
                 <p>It examines two ways that the value of work of a team can be evaluated:</p>
                 <ol>
@@ -85,7 +98,7 @@
                 <p>🎰 In the original in-class version of the game, some faculty would hold a raffle for copies of popular behavioral economics books (e.g. Freakonomics) to motivate students to earnestly play the game.</p>
             </v-col>
         </v-row>
-    </v-container>
+    </v-col></v-row>
 </template>
 
 <script>
