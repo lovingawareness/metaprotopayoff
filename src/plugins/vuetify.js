@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib/framework';
 
+const kelloggPurple = '#4F2582'
+
 Vue.use(Vuetify);
 
 export default new Vuetify({
@@ -10,7 +12,7 @@ export default new Vuetify({
       },
     themes: {
       light: {
-        primary: '#007BFF',
+        primary: kelloggPurple,
         secondary: '#424242',
         accent: '#82B1FF',
         error: '#FF5252',
