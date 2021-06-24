@@ -77,7 +77,7 @@ export default Vue.extend({
         },
         {
           text: "About This Site",
-          icon: "mdi-about",
+          icon: "mdi-information-outline",
           route: "/about"
         }
       ]
