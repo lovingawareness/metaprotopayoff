@@ -3,7 +3,7 @@
         <v-row>
             <v-col>
                 <v-img>
-                    <div class="text-h1">About This Site</div>
+                    <div class="text-sm-h1 text-h2">About This Site</div>
                 </v-img>
             </v-col>
         </v-row>

@@ -7,7 +7,7 @@
                     class="white--text align-end"
                     max-height="300"
                 >
-                    <div class="text-h1">Learning Resources</div>
+                    <div class="text-sm-h1 text-h2">Learning Resources</div>
                     <!-- Photo by <a href="https://unsplash.com/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clay Banks</a> on <a href="https://unsplash.com/s/photos/learn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
                 </v-img>
                 

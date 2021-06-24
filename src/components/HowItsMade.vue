@@ -7,7 +7,7 @@
                     class="white--text align-end"
                     max-height="300"
                 >
-                    <div class="text-h1">How Proto Payoff Is Made</div>
+                    <div class="text-sm-h1 text-h2">How Proto Payoff Is Made</div>
                     <!-- Photo by <a href="https://unsplash.com/@urielsc26?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Uriel SC</a> on <a href="https://unsplash.com/s/photos/network?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
                 </v-img>
             </v-col>

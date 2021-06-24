@@ -7,7 +7,7 @@
                     class="white--text align-end"
                     max-height="300"
                 >
-                    <div class="text-h1">Technical Background</div>
+                    <div class="text-sm-h1 text-h2">Technical Background</div>
                     <!-- Photo by <a href="https://unsplash.com/@roman_lazygeek?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roman Mager</a> on <a href="https://unsplash.com/s/photos/equations?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    -->
                 </v-img>
